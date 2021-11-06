@@ -1,3 +1,5 @@
+# CI files #
+############
 core.Microsoft*
 core.mongo*
 core.python*
@@ -6,3 +8,12 @@ __pycache__/
 *.py[cod]
 node_modules/
 .github/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# API credentials #
+###################
+creds.json
